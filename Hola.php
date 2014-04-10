@@ -2,10 +2,16 @@
 
 class Persona{
 
-public function Saludo(){
+public function saludo(){
 
 print "Hola mundo \n";
 
+
+}
+
+public function ver(){
+
+	print "También se puede ver BitBucket";
 
 }
 
@@ -17,9 +23,9 @@ $otro = new Persona();
 $any = new Persona();
 
 
-$claudio->Saludo();
-$otro->Saludo();
-$any->Saludo();
+$claudio->saludo();
+$otro->saludo();
+$any->ver();
 // otro objeto mas
 
 
