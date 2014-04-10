@@ -1,6 +1,20 @@
 <?php
 
-echo "hola mundo\n";
+class Persona{
+
+public function Saludo(){
+
+print "Hola mundo \n";
+
+
+}
+
+
+}
+
+$claudio = new Persona();
+
+$claudio->Saludo();
 
 
 ?>
